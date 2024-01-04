@@ -1,5 +1,3 @@
-const checkoutStepTwoLocators = {
+export const checkoutStepTwoLocators = {
     finishBtn: '#finish'
 }
-
-export default checkoutStepTwoLocators
