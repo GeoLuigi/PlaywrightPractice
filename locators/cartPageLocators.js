@@ -1,3 +1,3 @@
 export const cartPageLocators = {
-    checkoutButton: '#checkout'
+    checkoutBtn: '#checkout'
 }
