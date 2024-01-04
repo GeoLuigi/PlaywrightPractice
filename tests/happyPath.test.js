@@ -5,7 +5,6 @@ import { CartPage } from '../pages/cartPage'
 import { CheckoutStepOnePage } from '../pages/checkoutStepOnePage'
 import { CheckoutStepTwoPage } from '../pages/checkoutStepTwoPage'
 import { CheckoutCompletePage } from '../pages/checkoutCompletePage'
-import { assert } from 'console'
 
 
 test('Happy Path (standard_user)', async ({page}) => {
