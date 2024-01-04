@@ -6,10 +6,10 @@ export class SideBar {
         this.reactBurgerMenuBtn = sideBarLocators.reactBurgerMenuBtn
         this.logoutBtn = sideBarLocators.logoutBtn
     }
-    async clickBurgerMenu() {
+    async clickBurgerMenuBtn() {
         await this.page.click(this.reactBurgerMenuBtn)
     }
-    async clickLogout() {
+    async clickLogoutBtn() {
         await this.page.click(this.logoutBtn)
     }
 }

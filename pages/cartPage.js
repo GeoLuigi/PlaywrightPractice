@@ -8,7 +8,7 @@ export class CartPage extends SideBar {
         this.checkoutBtn = cartPageLocators.checkoutBtn
     }
 
-    async clickCheckoutButton() {
+    async clickCheckoutBtn() {
         await this.page.click(this.checkoutBtn)
     }
 }

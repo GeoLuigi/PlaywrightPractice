@@ -23,7 +23,7 @@ export class CheckoutStepOnePage extends SideBar{
         await this.page.fill(this.postalCodeField, postalCode)
     }
 
-    async clickContinueButton() {
+    async clickContinueBtn() {
         await this.page.click(this.continueBtn)
     }
 }

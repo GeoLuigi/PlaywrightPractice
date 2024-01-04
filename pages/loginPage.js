@@ -4,7 +4,7 @@ export class LoginPage {
         this.page = page
         this.usernameField = loginPageLocators.usernameField
         this.passwordField = loginPageLocators.passwordField
-        this.loginButton = loginPageLocators.loginButton
+        this.loginBtn = loginPageLocators.loginButton
     }
     async fillUsernameField(username) {
         await this.page.fill(this.usernameField, username)
@@ -12,7 +12,7 @@ export class LoginPage {
     async fillPasswordField(password) {
         await this.page.fill(this.passwordField, password)
     }
-    async clickLoginButton() {
-        await this.page.click(this.loginButton)
+    async clickLoginBtn() {
+        await this.page.click(this.loginBtn)
     }
 }

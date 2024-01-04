@@ -1,4 +1,4 @@
-import { checkoutStepTwoLocators } from "../locators/checkoutStepOneLocators"
+import { checkoutStepTwoLocators } from "../locators/ckeckoutStepTwoLocators"
 import { SideBar } from "./SideBar"
 
 export class CheckoutStepTwoPage extends SideBar {
